@@ -1,0 +1,55 @@
+header{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+.logo{
+    height: 150px;
+}
+.menu-icerik img{
+    border: 5px solid ;
+    border-radius: 50px;
+}
+.menu-icerik{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.menu-icerik p{
+    font-size: 21px; /*yazı tipinin boyutu*/
+}
+.whatsapplogo {
+    width: 50px; /*resim genişliği ayarlar*/
+}
+#whatsapp-icon {
+    position: fixed;
+    bottom: 20px; /* Sayfanın altına 20px mesafe */
+    right: 20px; /* Sayfanın sağına 20px mesafe */
+    z-index: 9999; /* Diğer öğelerin önünde görünmesini sağlar */
+}
+
+/* İkonun boyutunu ayarlama */
+#whatsapp-icon img {
+    width: 50px; /* İkonun genişliği */
+    height: 50px; /* İkonun yüksekliği */
+    border-radius: 50%; /* Yuvarlak kenarlar */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* İkona gölge ekler */
+}
+@media (max-width: 640px){ /*Mobil uyumluluk ayarlama*/
+    #whatsapp-icon {
+        position: fixed;
+        bottom: 20px; /* Sayfanın altına 20px mesafe */
+        right: 20px; /* Sayfanın sağına 20px mesafe */
+        z-index: 9999; /* Diğer öğelerin önünde görünmesini sağlar */
+    }
+    
+    /* İkonun boyutunu ayarlama */
+    #whatsapp-icon img {
+        width: 25px; /* İkonun genişliği */
+        height: 25px; /* İkonun yüksekliği */
+        border-radius: 50%; /* Yuvarlak kenarlar */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* İkona gölge ekler */
+    }
+}
